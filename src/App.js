@@ -376,8 +376,6 @@ function App() {
             >
               <>
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
                   href="https://yettieclub.com/"
                   style={{ color: "white", textDecoration: "none" }}
                 >
