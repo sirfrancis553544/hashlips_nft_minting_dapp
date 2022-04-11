@@ -266,7 +266,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees. <br /> Limit two free mints per wallet.
+                 FREE!!! Excluding gas fees. <br /> Limit two free mints per wallet.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
