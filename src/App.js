@@ -216,6 +216,8 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+           
+
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -224,7 +226,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+             free mint <br /> {data.totalSupply} / {CONFIG.MAX_SUPPLY} 
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -264,9 +266,9 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  style={{ textAlign: "center",fontWeight:"bold", color: "var(--primary)" }}
                 >
-                 FREE!!! Excluding gas fees. <br /> Limit two free mints per wallet.
+                Excluding gas fees. <br /> Limit two free mints per wallet.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
